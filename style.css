@@ -1,0 +1,143 @@
+*
+{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
+#Container
+{
+	margin-top: 100px;
+        margin-left:40px;
+}
+
+.Chiken
+{
+	width: 400px;
+	height: 200px;
+	background-color: gray;
+	float: left;
+        border:1px solid black;
+        
+	margin-right: 40px;
+        position: relative;
+}
+.Beef
+{
+        width: 400px;
+	height: 200px;
+	background-color: gray;
+	float: left;
+        border:1px solid black;
+        margin-right: 40px;
+        position: relative;
+}
+.Sushi
+{       width:400px;
+        height: 200px;
+	background-color: gray;
+	float: left;
+        border:1px solid black;
+        position: relative;
+}
+.ChikMenu
+{
+	float: right;
+         width: 100px;
+	height: 30px;
+	border: 2px solid black;
+        font-family: cursive;
+        text-align: center;
+        color:white;
+        background-color: maroon;
+}
+.BeefMenu
+{
+	float: right;
+         width: 100px;
+	height: 30px;
+	border: 2px solid black;
+        font-family: cursive;
+        text-align: center;
+        color:red;
+       background-color: #0ff1f9;
+}
+.SushiMenu
+{
+        float: right;
+        width: 100px;
+	height: 30px;
+	border: 2px solid black;
+        font-family: cursive;
+        text-align: center;
+        color:black;
+        background-color: #10ff4e;
+}
+h1
+{
+	font-family: cursive;
+	text-align: center;
+	color: pink;
+        margin-bottom: 50px;
+}
+
+p
+{      position: absolute;
+	top:40px;
+      margin-left: 8px;
+	margin-right: 8px;
+       
+}
+
+.Reset
+{
+	clear: both;
+}
+
+@media(min-width: 992px )
+{
+   .Sushi,.Beef, .Chiken
+   {
+   	width: 30%;
+   }
+
+}
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+	 .Chiken
+   {
+   	width: 43%;
+   }
+  .Beef
+   {
+   	  width: 43%;
+            
+   }
+   .Sushi
+   {
+      width: 90.4%;
+         margin-top: 50px;
+      
+   }
+
+}
+@media(max-width: 766px)
+	{
+ .Chiken{
+	width: 95%;
+      overflow: hidden;
+         
+	}
+	         	
+.Beef{
+    width: 95%;
+    margin-top: 50px;
+    overflow: hidden;
+      } 
+ .Sushi{
+ width: 95%;
+  margin-top: 50px;
+  overflow: hidden;
+	  }
+
+	}
